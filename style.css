@@ -1,0 +1,84 @@
+body{
+    margin:0px;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #4aebb5;
+    color: #fff;
+    font-size: 30px;
+    height: 12%;
+}
+.content-small{
+    font-size: 15px;
+}
+.sub-nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    height: 4%;
+}
+.sub-nav p{
+    padding: 5px;   
+}
+
+.content {
+    height: 76%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    width: 30%;
+    background-color:  rgb(241, 238, 241);
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    background-color: white;
+    
+}
+.footer{
+    background-color: rgb(219, 217, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    height: 10%;
+}
+.section-text{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+.photo-card{
+    width: 98%;
+    height: 25%;
+    background-color:  rgb(150, 147, 147);
+    color: #000000;
+    padding: 10px;
+    
+}
+.photo-card-sm{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    height: 5%;
+    background-color:  rgb(150, 147, 147);
+    color: #000000;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
